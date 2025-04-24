@@ -77,13 +77,13 @@ Sua opinião é de extrema importância e nos motiva a melhorar cada vez mais �
 
 ---
 
-## 🚀 Conheça os Devs! 🤝
+## 🚀 Conheça os Devs e Orientadores! 🤝
 
-[• @EnzoNicoletti](https://github.com/EnzoNicoletti)
+- [@EnzoNicoletti](https://github.com/EnzoNicoletti)
 
-[• @MichelAcre](https://github.com/MichelAcre)
+- [@MichelAcre](https://github.com/MichelAcre)
 
-[• @biel-365](https://github.com/biel-365)
+- [@biel-365](https://github.com/biel-365)
 
 **Orientadores:**
 
