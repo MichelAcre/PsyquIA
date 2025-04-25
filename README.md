@@ -27,7 +27,7 @@ Nosso foco está em criar uma experiência acolhedora e acessível, com ferramen
 
 **💪 Você pode ver todo o processo desafiador que nossa equipe passou para desenvolver as funcionalidades do site aqui** ⇨ [Clickup](https://app.clickup.com/9013984720/v/l/6-901309792828-1?pr=90134050405)
 
-![ClickUp](./img/ClickUp-logo1.png)
+![ClickUp](./img/img/02ZXQZp6gXHTbVLJm5jLX0g-1.webp)
 ---
 
 ## ⚡ Os Grandes Problemas Mentais
