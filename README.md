@@ -88,5 +88,9 @@ Sua opinião é de extrema importância e nos motiva a melhorar cada vez mais �
 
 **Orientadores:**
 
-- [@Prof-Castello](https://www.github.com/Prof-Castello)
+- [@ProfCastello](https://github.com/ProfCastello)
 - [@ProfCristianoDePaula](https://www.github.com/ProfCristianoDePaula)
+
+---
+
+#PsiquIA #Psicologia #SENAI #ProblemasMentais #SiteAplicativo 
