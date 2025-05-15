@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: #831CB5;
+}
+
+#herobanner{
+    color:#831CB5;
+}
+
+#btnLogin{
+    background-color: #831CB5;
+    border-radius: 15px;
+}
+
+#highlight{
+    color:#831CB5;
+}
+
+span{
+    color:#831CB5;
+}
