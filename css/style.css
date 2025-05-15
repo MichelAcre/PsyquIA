@@ -1,11 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
 .titulo-com-linha {
-    display: inline-block;
-    border-bottom: 3px solid #888;
-    padding-bottom: 5px;
-    font-size: 28px;
-    font-weight: bold;
+  display: inline-block;
+  border-bottom: 3px solid #888;
+  padding-bottom: 5px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.play-badge {
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.img-ilustrativa {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.versao-desktop {
+  display: none;
+}
+
+.versao-mobile {
+  display: block;
+}
+
+@media (min-width: 768px) {
+  .versao-desktop {
+    display: flex;
+    gap: 40px;
   }
-  .play-badge {
-    width: 300px;
-    margin-top: 50px;
+  .versao-mobile {
+    display: none;
   }
+} 
