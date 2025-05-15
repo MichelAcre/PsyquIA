@@ -1,0 +1,17 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#header{
+    background-color: #831CB5;
+}
+
+span{
+    color: #831CB5;
+}
+
+#btnLogin{
+    background: #831CB5;
+}
