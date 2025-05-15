@@ -1,0 +1,11 @@
+.titulo-com-linha {
+    display: inline-block;
+    border-bottom: 3px solid #888;
+    padding-bottom: 5px;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .play-badge {
+    width: 300px;
+    margin-top: 50px;
+  }
