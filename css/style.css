@@ -16,10 +16,15 @@ span {
   background: #831cb5;
 }
 
-#btnBaixe{
+.btn-baixe{
     background-color: #3D8D7A;
+    color: white;
 }
 
 #herobanner{
     font-size: 55px;
+}
+
+.lista-mobile{
+  font-size: 12pt;
 }
