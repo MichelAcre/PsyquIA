@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>PsyquIA</title>
     <link rel="stylesheet" href="./css/style.css" />
-    <link rel="stylesheet" href="https://drive.google.com/uc?export=view&id=1yTLwNiCZhIdCWolQldwq4spHQkgZDqkG">
+
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
@@ -13,13 +13,30 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark shadow w-100 z-30 p-0" id="header">
-      <div class="container-fluid">
-        <a class="navbar-brand w-75 w-md-50" href="#">
-          <img src="img/PsyquIALogo.webp" class="w-75 w-md-50" alt="PsyquIA" />
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow w-100 z-30 p-0"
+      id="header"
+    >
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/PSYQUIA.png"
+            class="d-md-block d-none align-text-top fw-bold "
+            alt="PsyquIA"
+            height="100px"
+          />
+          <img
+            src="img/PSYQUIA.png"
+            class="d-block d-md-none align-text-top fw-bold"
+            alt="PsyquIA"
+            height="70px"
+          />
         </a>
         <button
           class="navbar-toggler"
@@ -32,8 +49,11 @@
         >
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 fs-4">
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul class="navbar-nav mb-2 mb-lg-0 fs-4 gap-md-5">
             <li class="nav-item">
               <a
                 class="nav-link active fsa"
@@ -52,7 +72,7 @@
                 >Nossa Equipe</a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item" id="">
               <a class="nav-link" href="../ConsumoAPI2-Bootstrap/index.html"
                 >Baixe o App</a
               >
@@ -65,22 +85,46 @@
           </ul>
         </div>
       </div>
-      <hr id="nav-line" class="border-b border-gray-100 opacity-25 my-0 py-0">
+      <hr id="nav-line" class="border-b border-gray-100 opacity-25 my-0 py-0" />
     </nav>
-    <div class="d-flex flex-row flex-wrap">
-      <div class="container text-center w-50 w-md-100 m-0 m-md-3">
-      <h1 id="herobanner" class="m-3 mt-3 mx-md-0 fw-bold fs-1">As Pessoas Mais Corajosas São as Que Tomam o Primeiro Passo.</h1>
-      <h2>Nós te ajudamos nessa estrada</h2>
-      <h2>A <span>Psyquia</span> é uma plataforma feita com o objetivo de ajudar psicólogos a se divulgarem e <span>facilitar o acesso aos seus serviços.</span></h3>
-        <ul class="list-unstyled fs-3">
-          <li><i class="bi bi-check-circle-fill text-success me-2"></i> Perfis confiáveis de profissionais;</li>
-          <li><i class="bi bi-check-circle-fill text-success me-2"></i> Acesso fácil a conversas e interações remotas;</li>
-          <li><i class="bi bi-check-circle-fill text-success me-2"></i> Conversas com IA para auxílio de indicação.</li>
-        </ul>
-        <button id="btnLogin" class="btn btn-dark py-2 px-5 fs-4 border-0 border-">Experimente</button>
+
+    <main>
+      <div class="d-flex col justify-content-center align-items-center m-0 mx-md-5">
+        <div class="container text-center" style="">
+          <span
+            ><h1 id="herobanner" class="m-3 mt-3 fw-bold fs-">
+              Apoio psicológico, onde e quando precisar.
+            </h1></span
+          >
+          <h2 class="">
+            A <span>Psyquia</span> é uma plataforma feita com o objetivo de
+            ajudar psicólogos a se divulgarem e
+            <span>facilitar o acesso aos seus serviços.</span>
+          </h2>
+          <ul class="list-unstyled fs-3 text-center fw-bold mt-4">
+            <li>
+              <i class="bi bi-check-circle-fill text-success me-2"></i> Perfis
+              confiáveis de profissionais;
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill text-success me-2"></i> Acesso
+              fácil a conversas e interações remotas;
+            </li>
+            <li>
+              <i class="bi bi-check-circle-fill text-success me-2"></i>
+              Conversas com IA para auxílio de indicação.
+            </li>
+          </ul>
+          <button
+            id="btnLogin"
+            class="btn btn-dark py-2 px-5 fs-4 border-0 border-"
+          >
+            Experimente
+          </button>
+        </div>
+        <img class="" src="img/img.jpg" alt="" width="75%"/>
       </div>
-      <img class="w-100 w-md-" src="img/img.jpg" alt="">
-    </div>
+    </main>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
       integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="

@@ -1,17 +1,25 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#header{
-    background-color: #831CB5;
+#header {
+  background-color: #831cb5;
 }
 
-span{
-    color: #831CB5;
+span {
+  color: #831cb5;
 }
 
-#btnLogin{
-    background: #831CB5;
+#btnLogin {
+  background: #831cb5;
+}
+
+#btnBaixe{
+    background-color: #3D8D7A;
+}
+
+#herobanner{
+    font-size: 55px;
 }
