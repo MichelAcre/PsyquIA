@@ -12,6 +12,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div id="app" class="container text-center fw-bold mt-5">
@@ -87,26 +91,69 @@
       </div>
     </div>
     <!----------------------------------------------->
-
-    <div id="equipe">
-<div class="container text-center mt-5">
-  <h2 class="titulo-equipe mb-5">Conheça Nossa Equipe!</h2>
-
-  <div class="row mb-5 align-items-center">
-<!--Aqui é o Michel!-->
-<div class="col-md-4 d-flex flex-column align-items-center">
-<img src="img/Michel.png" alt="Meu Deus" class="foto-equipe mb-2" />
-<h5 class="fw-bold">Michel Acre - PO</h5>
-<!--Redes Sociais dele!-->
-<div class="d-flex justify-content-center redes-sociais">
-<i class="fab fa-github"></i>
-<i class="fab fa-instagram"></i>
-<i class="fab fa-discord"></i>
-    </div>
-</div>
-    </div>
+    <div class="equipe">
+      <div class="container text-center mt-5">
+        <h1 class="titulo-equipe mb-5">Conheça Nossa Equipe!</h1>
     
+        <!-- Michel -->
+        <div class="row justify-content-center align-items-center card-equipe">
+          <div class="col-md-4 d-flex flex-column align-items-center">
+            <img src="img/Michel.png" alt="Michel" class="foto-equipe mb-2" />
+            <div class="nome-linha">Michel Acre - PO</div>
+            <div class="icones-social">
+              <i class="bi bi-github icone"></i>
+              <i class="bi bi-instagram icone"></i>
+              <i class="bi bi-discord icone"></i>
+            </div>
+          </div>
+          <div class="col-md-8 d-none d-md-block text-start mt-3 mt-md-0">
+            <h3>
+              Um programador back-end com 23 anos de experiência, especializado em
+              HTML, JS e CSS, que tem grande compromisso com seus projetos e
+              gerencia o grupo como Project Owner.
+            </h3>
+          </div>
+        </div>
     
+        <!-- Gabriel -->
+        <div class="row justify-content-center align-items-center card-equipe">
+          <div class="col-md-4 d-flex flex-column align-items-center order-md-2">
+            <img src="img/Gabriel.png" alt="Gabriel" class="foto-equipe mb-2" />
+            <div class="nome-linha">Gabriel L. - SM</div>
+            <div class="icones-social">
+              <i class="bi bi-github icone"></i>
+              <i class="bi bi-instagram icone"></i>
+              <i class="bi bi-discord icone"></i>
+            </div>
+          </div>
+          <div class="col-md-8 d-none d-md-block text-start order-md-1 mt-3 mt-md-0">
+            <h3>
+              O Scrum Master do projeto que auxilia o emocional do grupo elogiando
+              seus colegas, e os encorajando a trabalharem corretamente. Apesar
+              de ser ruim com Back-End, ajuda o máximo que pode.
+            </h3>
+          </div>
+        </div>
+    
+        <!-- Enzo -->
+        <div class="row justify-content-center align-items-center card-equipe">
+          <div class="col-md-4 d-flex flex-column align-items-center">
+            <img src="img/Enzo.png" alt="Enzo" class="foto-equipe mb-2" />
+            <div class="nome-linha">Enzo N. - DEV</div>
+            <div class="icones-social">
+              <i class="bi bi-github icone"></i>
+              <i class="bi bi-tiktok icone"></i>
+              <i class="bi bi-discord icone"></i>
+            </div>
+          </div>
+          <div class="col-md-8 d-none d-md-block text-start mt-3 mt-md-0">
+            <h3>
+              Watashi no na wa “kirayoshikage” nenrei 33-sai jitaku wa moriōchō hokutō-bu no bessō chitai ni ari… kekkon wa shite inai… shigoto wa “kameyūchēn-ten” no kaishain de mainichi osokutomo yoru 8-ji made ni wa kitaku suru tabako wa suwanai sake wa tashinamu teido yoru 11 tokiniha yuka ni tsuki kanarazu 8-jikan wa suimin o toru yō ni shite iru… nerumae ni atatakai miruku o nomi 20-bu hodo no sutoretchi de karada o hogushite kara yuka ni tsuku to hotondo asamade jukusui-sa… akanbō no yō ni hirō ya sutoresu o nokosazu ni asa-me o samaseru nda… kenkōshinda demo ijō nashi to iwa reta yo
+            </h3>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
       integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
