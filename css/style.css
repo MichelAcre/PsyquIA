@@ -3,10 +3,8 @@ body {
 }
 
 .titulo-com-linha {
-  display: inline-block;
-  border-bottom: 3px solid #888;
+  border-bottom: 3px solid #45ABCC;
   padding-bottom: 5px;
-  font-size: 28px;
   font-weight: bold;
 }
 
@@ -21,16 +19,15 @@ body {
   max-width: 100%;
   border-radius: 10px;
 }
-
-.versao-desktop {
+/* .versao-desktop {
   display: none;
 }
 
 .versao-mobile {
   display: block;
-}
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .versao-desktop {
     display: flex;
     gap: 40px;
@@ -38,4 +35,24 @@ body {
   .versao-mobile {
     display: none;
   }
-} 
+} */
+
+
+
+.titulo-equipe {
+  border-bottom: 3px solid #45ABCC;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.foto-equipe {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.redes-sociais {
+font-size: 1.5rem;
+gap: 10px;
+}
