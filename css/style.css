@@ -28,3 +28,13 @@ span {
 .lista-mobile{
   font-size: 12pt;
 }
+
+.custom-box {
+  padding: 20px;
+  text-align: left;
+}
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
