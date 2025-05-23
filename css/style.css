@@ -1,26 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-#header{
-    background-color: #831CB5;
+#header {
+  background-color: #831cb5;
 }
 
-#herobanner{
-    color:#831CB5;
+span {
+  color: #831cb5;
 }
 
-#btnLogin{
-    background-color: #831CB5;
-    border-radius: 15px;
+#btnLogin {
+  background: #831cb5;
 }
 
-#highlight{
-    color:#831CB5;
+.btn-baixe {
+  background-color: #3d8d7a;
+  color: white;
 }
 
-span{
-    color:#831CB5;
+#herobanner {
+  font-size: 55px;
+}
+
+.lista-mobile {
+  font-size: 12pt;
+}
+
+.custom-box {
+  padding: 20px;
+  text-align: left;
+}
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
 }
