@@ -38,3 +38,37 @@ span {
   height: auto;
   border-radius: 8px;
 }
+
+#plan0 {
+    margin-bottom: 0px;
+}
+
+.purpl{
+    color: #831CB5 !important;
+}
+
+.purplFundo{
+    background-color: #831CB5 !important;
+}
+
+.purplBolinha{
+    background-color: #AD85FE !important;
+}
+
+#grand{
+    font-size: 45px;
+}
+
+.corFundoFonte{
+    color: #ADD8E6 !important;
+}
+
+.textopqn{
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    .textopqn {
+      font-size: 14px;
+    }
+  }
