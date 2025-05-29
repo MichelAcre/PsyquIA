@@ -1,3 +1,77 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #831cb5;
+}
+
+span {
+  color: #831cb5;
+}
+
+#btnLogin {
+  background: #831cb5;
+}
+
+.btn-baixe {
+  background-color: #3d8d7a;
+  color: white;
+}
+
+#herobanner {
+  font-size: 55px;
+}
+
+.lista-mobile {
+  font-size: 12pt;
+}
+
+.custom-box {
+  padding: 20px;
+  text-align: left;
+}
+.image-box img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+#plan0 {
+    margin-bottom: 0px;
+}
+
+.purpl{
+    color: #831CB5 !important;
+}
+
+.purplFundo{
+    background-color: #831CB5 !important;
+}
+
+.purplBolinha{
+    background-color: #AD85FE !important;
+}
+
+#grand{
+    font-size: 45px;
+}
+
+.corFundoFonte{
+    color: #ADD8E6 !important;
+}
+
+.textopqn{
+    font-size: 28px;
+}
+
+@media (max-width: 768px) {
+    .textopqn {
+      font-size: 14px;
+    }
+  }
 body {
   font-family: Arial, sans-serif;
 }
@@ -59,7 +133,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
 }
 
 .titulo-contato {
