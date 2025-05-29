@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.titulo-com-linha {
+  border-bottom: 7px solid #45ABCC;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.play-badge {
+  width: 300px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+}
+
+.img-ilustrativa {
+  width: 300px;
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+
+.titulo-equipe {
+  border-bottom: 7px solid #45ABCC;
+  padding-bottom: 5px;
+  font-weight: bold;
+}
+
+.card-equipe {
+  border: 1px solid #000000;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 40px;
+}
+
+.nome-linha {
+  border-top: 2px solid #000;
+  margin-top: 10px;
+  padding-top: 5px;
+  font-weight: bold;
+}
+
+.foto-equipe {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.icone {
+  font-size: 24px;
+  color: #000;
+}
+
+body {
+  background-color: #fff8e8;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+}
+
+.titulo-contato {
+  font-size: 24px;
+  border-bottom: 4px solid #45ABCC;
+  padding-bottom: 5px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.form-container {
+  text-align: center;
+  background-color: #fff3e0;
+  border: 2px solid black;
+  border-radius: 20px;
+  padding: 30px;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  display: block;
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: #f5ebd8;
+  font-weight: bold;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+.button-submit {
+  background-color: #831DB6;
+  color: white;
+  padding: 15px 30px;
+  border: 2px ;
+  border-radius: 12px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+}
+
+button:hover {
+  background-color: #5c0091;
+}
