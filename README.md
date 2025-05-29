@@ -71,7 +71,7 @@ Este projeto foi desenvolvido com:
 
 # 💥 Veja Nosso Site Completo 🔥
 Você pode ver como ficou nosso site completo aqui!
-![PsyquIA] (michelacre.github.io/PsyquIA/)
+![PsyquIA](michelacre.github.io/PsyquIA/)
 ---
 
 ## 📋 Feedback
