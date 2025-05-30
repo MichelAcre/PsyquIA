@@ -40,44 +40,44 @@ span {
 }
 
 #plan0 {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
-.purpl{
-    color: #831CB5 !important;
+.purpl {
+  color: #831cb5 !important;
 }
 
-.purplFundo{
-    background-color: #831CB5 !important;
+.purplFundo {
+  background-color: #831cb5 !important;
 }
 
-.purplBolinha{
-    background-color: #AD85FE !important;
+.purplBolinha {
+  background-color: #ad85fe !important;
 }
 
-#grand{
-    font-size: 45px;
+#grand {
+  font-size: 45px;
 }
 
-.corFundoFonte{
-    color: #ADD8E6 !important;
+.corFundoFonte {
+  color: #add8e6 !important;
 }
 
-.textopqn{
-    font-size: 28px;
+.textopqn {
+  font-size: 28px;
 }
 
 @media (max-width: 768px) {
-    .textopqn {
-      font-size: 14px;
-    }
+  .textopqn {
+    font-size: 14px;
   }
+}
 body {
   font-family: Arial, sans-serif;
 }
 
 .titulo-com-linha {
-  border-bottom: 7px solid #45ABCC;
+  border-bottom: 7px solid #45abcc;
   padding-bottom: 5px;
   font-weight: bold;
 }
@@ -94,9 +94,8 @@ body {
   border-radius: 10px;
 }
 
-
 .titulo-equipe {
-  border-bottom: 7px solid #45ABCC;
+  border-bottom: 7px solid #45abcc;
   padding-bottom: 5px;
   font-weight: bold;
 }
@@ -137,8 +136,9 @@ body {
 
 .titulo-contato {
   font-size: 24px;
-  border-bottom: 4px solid #45ABCC;
+  border-bottom: 4px solid #45abcc;
   padding-bottom: 5px;
+  padding-top: 100px;
   font-weight: bold;
   margin-bottom: 10px;
 }
@@ -160,7 +160,8 @@ p {
   margin: 0 auto;
 }
 
-form input, form textarea {
+form input,
+form textarea {
   display: block;
   width: 100%;
   padding: 15px;
@@ -174,16 +175,20 @@ form input, form textarea {
 }
 
 .button-submit {
-  background-color: #831DB6;
+  background-color: #831db6;
   color: white;
   padding: 15px 30px;
-  border: 2px ;
+  border: 2px;
   border-radius: 12px;
   font-size: 1.1rem;
   cursor: pointer;
-  box-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 button:hover {
   background-color: #5c0091;
+}
+
+.equipe {
+  padding-top: 70px;
 }
