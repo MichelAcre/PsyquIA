@@ -1,9 +1,9 @@
-# 𝚿 PsiquIA.
+# 𝚿 PsyquIA.
 
 **Um site inovador para facilitar o acesso à terapia**
 ![Logo](./img/PsyquIALogo.webp)
 
-Sejam todos muito bem-vindos ao README do nosso projeto de Psicologia, um site criado com propósito educacional graças à Rede SENAI, para desenvolver e aplicar nossas habilidades em um projeto real que busca facilitar o acesso à terapia com o uso da tecnologia. Durante o desenvolvimento do PsiquIA, estamos aperfeiçoando diversas competências essenciais, como:
+Sejam todos muito bem-vindos ao README do nosso projeto de Psicologia, um site criado com propósito educacional graças à Rede SENAI, para desenvolver e aplicar nossas habilidades em um projeto real que busca facilitar o acesso à terapia com o uso da tecnologia. Durante o desenvolvimento do PsyquIA, estamos aperfeiçoando diversas competências essenciais, como:
 
 • Trabalho em equipe e colaboração;
 
@@ -21,7 +21,7 @@ Sejam todos muito bem-vindos ao README do nosso projeto de Psicologia, um site c
 
 ## 🎯 Objetivo do Projeto 📌
 
-O projeto PsiquIA tem como principal objetivo tornar o acesso à terapia mais simples, rápido e eficaz por meio da tecnologia. A ideia é conectar pacientes a psicólogos de forma prática e personalizada, com o auxílio de inteligência artificial, filtros de busca avançados e um sistema de atendimento intuitivo.
+O projeto PsyquIA tem como principal objetivo tornar o acesso à terapia mais simples, rápido e eficaz por meio da tecnologia. A ideia é conectar pacientes a psicólogos de forma prática e personalizada, com o auxílio de inteligência artificial, filtros de busca avançados e um sistema de atendimento intuitivo.
 
 Nosso foco está em criar uma experiência acolhedora e acessível, com ferramentas que permitam desde recomendações de profissionais até suporte emocional com nossa IA treinada, tudo dentro de uma plataforma moderna, funcional e pensada para todos.
 
@@ -37,9 +37,9 @@ Muitos enfrentam esses desafios sem suporte adequado, seja por falta de acesso, 
 
 ---
 
-## 💡O Que a PsiquIA oferece Para Ajudar 🧠
+## 💡O Que a PsyquIA oferece Para Ajudar 🧠
 
-Nosso projeto foi criado com o objetivo de aproximar as pessoas dos cuidados com a saúde mental. Para isso, o PsiquIA oferece:
+Nosso projeto foi criado com o objetivo de aproximar as pessoas dos cuidados com a saúde mental. Para isso, o PsyquIA oferece:
 
 🔍 Recomendação inteligente de psicólogos: O site sugere profissionais com base no perfil do paciente e nas especialidades necessárias.
 
@@ -69,11 +69,16 @@ Este projeto foi desenvolvido com:
 
 ---
 
+# 💥 Veja Nosso Site Completo 🔥
+Você pode ver como ficou nosso site completo aqui!
+[PsyquIA](https://michelacre.github.io/PsyquIA/)
+---
+
 ## 📋 Feedback
 
 Se você tiver algum feedback, por favor nos deixe saber!
 
-Nosso Email para contatos é: psiquiaofficial@gmail.com
+Nosso Email para contatos é: psyquiaofficial@gmail.com
 
 Sua opinião é de extrema importância e nos motiva a melhorar cada vez mais ❤️
 
@@ -94,4 +99,4 @@ Sua opinião é de extrema importância e nos motiva a melhorar cada vez mais �
 
 ---
 
-#PsiquIA #Psicologia #SENAI #ProblemasMentais #SiteAplicativo 
+#PsyquIA #Psicologia #SENAI #ProblemasMentais #SiteAplicativo 
