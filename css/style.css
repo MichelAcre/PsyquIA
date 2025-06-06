@@ -192,3 +192,10 @@ button:hover {
 .equipe {
   padding-top: 70px;
 }
+
+.active {
+  text-decoration: underline !important;
+}
+.nav-link:hover {
+  text-decoration: underline !important;
+}
