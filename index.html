@@ -662,11 +662,11 @@
      <p id="contato" class="titulo-contato">Entre em contato</p>
      <p>Nos envie seu feedback por email!</p>
      <div class="form-container" style="margin-bottom: 60px;">
-       <form>
-         <input type="text" placeholder="Nome" required />
-         <input type="email" placeholder="Email" required />
-         <textarea rows="5" placeholder="Mensagem" required></textarea>
-         <button class="fw-bold button-submit" type="submit">Enviar</button>
+       <form id="frmContato">
+         <input type="text" name="inNome" id="inNome" placeholder="Nome" />
+         <input type="email" name="inEmail" id="inEmail" placeholder="Email" />
+         <textarea rows="5" name="inMensagem" id="inMensagem" placeholder="Mensagem"></textarea>
+         <button class="fw-bold button-submit" type="button" onclick="validarDados()">Enviar</button>
        </form>
       </div>
 
