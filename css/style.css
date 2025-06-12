@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body {
+  padding: 0;
+  margin: 0;
+}
+
 #header {
   background-color: #831cb5;
 }
@@ -198,4 +203,45 @@ button:hover {
 }
 .nav-link:hover {
   text-decoration: underline !important;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.btnLogin {
+  background-color: #831cb5;
+  color: white;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+label {
+  font-weight: bold;
+  color: #831cb5;
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  cursor: pointer;
+  font-family: Arial, sans-serif;
+}
+
+.custom-checkbox input[type="checkbox"]:checked {
+  background-color: #831cb5;
+  border-color: #831cb5;
+}
+
+#error {
+  color: red;
+  font-size: 0.9em;
+}
+
+#errorM {
+  color: red;
+  font-size: 0.9em;
 }

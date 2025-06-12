@@ -1,11 +1,302 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Faça Login na sua conta</title>
-</head>
-<body>
-    
-</body>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Criar Conta</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css"
+      integrity="sha512-jnSuA4Ss2PkkikSOLtYs8BlYIeeIK1h99ty4YfvRPAlzr377vr3CXDb7sb7eEEBYjDtcYj+AjBH3FLv5uSJuXg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark shadow w-100 z-30 p-0 m-0 sticky-top"
+      id="header"
+    >
+      <div class="container-fluid justify-content-between">
+        <a class="navbar-brand" href="#">
+          <img
+            src="img/PSYQUIA.png"
+            class="d-md-block d-none align-text-top fw-bold"
+            alt="PsyquIA"
+            height="80px"
+          />
+          <img
+            src="img/PSYQUIA.png"
+            class="d-block d-md-none align-text-top fw-bold"
+            alt="PsyquIA"
+            height="70px"
+          />
+        </a>
+        <button
+          class="btn p-0 border-0 d-block d-md-none"
+          type="button"
+          id="dropdownMenuButton"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          onclick="menuAbrir"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="31"
+            height="31"
+            fill="#fff"
+            class="bi bi-three-dots-vertical"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0zm0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0z"
+            />
+          </svg>
+        </button>
+        <ul
+          class="dropdown-menu dropdown-menu-end text-center mx-3"
+          id="LinkBox"
+          aria-labelledby="dropdownMenuButton"
+        >
+          <li>
+            <a class="dropdown-item fw-semibold" href="#">Acesse Sua Conta</a>
+          </li>
+          <li>
+            <a class="dropdown-item fw-semibold" href="./index.html"
+              >Página Inicial</a
+            >
+          </li>
+        </ul>
+        <div
+          class="collapse navbar-collapse justify-content-end"
+          id="navbarSupportedContent"
+        >
+          <ul
+            class="navbar-nav mb-2 mb-lg-0 fs-4 gap-md-2 mx-md-5 mx-2 fw-semibold"
+          >
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#"
+                >Acesse sua Conta</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./index.html">Página Inicial</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <hr id="nav-line" class="border-b border-gray-100 opacity-25 my-0 py-0" />
+    </nav>
+    <main>
+      <div
+        class="container d-flex flex-column justify-content-center align-items-center mt-4"
+      >
+        <h1><span> Bem Vindo(a) à Psyquia! </span></h1>
+        <p class="text-center fw-normal fs-5 w-100">
+          Preencha os campos abaixo para criar sua conta e ter acesso completo à
+          plataforma.
+        </p>
+      </div>
+
+      <div class="container d-flex justify-content-center">
+        <form id="frmLogin" class="w-75 d-md-block d-none">
+          <div class="mb-3">
+            <label class="form-label">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              name="nome"
+              placeholder="Nome Completo *"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Email *"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">CPF</label>
+            <input
+              type="text"
+              class="form-control"
+              id="cpf"
+              name="cpf"
+              placeholder="CPF *"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Telefone</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="telefone"
+              name="telefone"
+              placeholder="Telefone *"
+            />
+          </div>
+          <div class="mb-3">
+            <label for="crp" class="form-label">CRP</label>
+            <input
+              type="text"
+              class="form-control"
+              id="crp"
+              name="crp"
+              placeholder="CRP 01/XXXXX *"
+            />
+            
+          </div>
+          <div class="row mb-3 gap-3">
+            <div class="col">
+              <label class="form-label">Senha</label>
+              <input
+                type="password"
+                class="form-control"
+                id="senha"
+                name="senha"
+                placeholder="Sua senha *"
+              />
+            </div>
+            <div class="col">
+              <label class="form-label">Confirme a Senha</label>
+              <input
+                type="password"
+                class="form-control"
+                id="confirmacaoSenha"
+                name="confirmacaoSenha"
+                placeholder="Confirme sua senha *"
+              />
+            </div>
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center custom-checkbox" >
+            <input 
+              class="form-check-input mt-3"
+              type="checkbox"
+              id="termos"
+              name="termos"
+            />
+            <label style="color: #000;" class="form-check-label ms-2" for="termos">
+               Li e concordo com os <a href="#" style="color: #831cb5; text-decoration: none;">Termos de uso</a> e a <a href="#" style="color: #831cb5; text-decoration: none;">Política de Privacidade</a>
+            </label>
+          </div>
+          <p id="error" class="d-none">É necessário concordar com os Termos de Uso e política de privacidade.</p>
+
+          <div class="d-flex justify-content-center">
+            <button type="button" class="btnLogin" onclick="validarCadastro()">
+              CRIAR CONTA
+            </button>
+          </div>
+        </form>
+        <form id="frmLoginM" class="w-90 d-block d-md-none">
+          <div class="mb-3">
+            <label class="form-label">Nome</label>
+            <input
+              type="text"
+              class="form-control"
+              id="nome"
+              name="nome"
+              placeholder="Nome Completo *"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Email</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              name="email"
+              placeholder="Email *"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">CPF</label>
+            <input
+              type="text"
+              class="form-control"
+              id="cpf"
+              name="cpf"
+              placeholder="CPF *"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">Telefone</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="telefone"
+              name="telefone"
+              placeholder="Telefone *"
+            />
+          </div>
+          <div class="mb-3">
+            <label class="form-label">CRP</label>
+            <input
+              type="text"
+              class="form-control"
+              id="crp"
+              name="crp"
+              placeholder="Seu CRP *"
+            />
+          </div>
+
+          <div class="row mb-3 gap-3">
+            <div class="col">
+            <label class="form-label">Senha</label>
+            <input
+              type="password"
+              class="form-control"
+              id="senha"
+              name="senha"
+              placeholder="Sua senha *"
+            />
+            <input
+              type="password"
+              class="form-control"
+              id="confirmacaoSenha"
+              name="confirmacaoSenha"
+              placeholder="Confirme sua senha *"
+            />
+          </div>
+
+          <div class="d-flex justify-content-center align-items-center custom-checkbox" >
+            <input 
+              class="form-check-input mt-3"
+              type="checkbox"
+              id="termos"
+              name="termos"
+            />
+            <label style="color: #000;" class="form-check-label ms-2" for="termos">
+               Li e concordo com os <a href="#" style="color: #831cb5; text-decoration: none;">Termos de uso</a> e a <a href="#" style="color: #831cb5; text-decoration: none;">Política de Privacidade</a>
+            </label>
+          </div>
+          <p id="errorM" class="d-none">É necessário concordar com os Termos de Uso e política de privacidade.</p>
+          <div class="d-flex justify-content-center">
+          <button type="button" class="btnLogin" onclick="validarCadastroM()">
+            CRIAR CONTA
+          </button>
+        </div>
+        </form>
+      </div>
+    </main>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"
+      integrity="sha512-7Pi/otdlbbCR+LnW+F7PwFcSDJOuUJB3OxtEHbg4vSMvzvJjde4Po1v4BR9Gdc9aXNUNFVUY+SK51wWT8WF0Gg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
